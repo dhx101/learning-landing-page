@@ -78,6 +78,30 @@ button {
     height: auto;
 }
 
+.block-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.cta {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 25px;
+    display: flex;
+    border-radius: 10px;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.cta button {
+    border-color: white;
+}
+
 footer {
     display: flex;
     justify-content: center;
