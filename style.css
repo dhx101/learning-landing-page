@@ -78,6 +78,26 @@ button {
     height: auto;
 }
 
+.block-3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 10%;
+}
+
+.block-3 .quote {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.block-3 .thor {
+    text-align: end;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
 .block-4 {
     display: flex;
     justify-content: center;
