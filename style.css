@@ -6,9 +6,10 @@
 }
 
 
-header {
+.flex-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1vh 10vw;
 }
 
@@ -29,6 +30,29 @@ ul li a {
     font-weight: 400;
 }
 
-.dark {
+.dark-background {
     background-color: #1f2937;
+}
+
+h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.block-1 p  {
+    color: white;
+}
+
+button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.image-1 {
+    width: 300px;
+    height: 200px;
 }
