@@ -2,11 +2,15 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
-    box-sizing: border-box;
+
 }
 
 header, .block-1, .block-2, .block-3, .block-4, footer {
     padding: 0 10%;
+}
+
+img {
+    width: 100%;
 }
 
 .flex-container {
@@ -23,6 +27,7 @@ header a {
     color: #f9faf8;
     font-size: 24px;
     font-weight: 600;
+    padding-top: 25px;
 }
 ul li {
     list-style: none;
@@ -43,16 +48,18 @@ h1 {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    padding-bottom: 25px;
 }
 
 .block-1 p  {
-    color: white;
+    color: whitesmoke;
+    padding-bottom: 25px;
 }
 
 button {
     color: #e5e7eb;
     background-color: #3882f6;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 10px;
     border-color: #3882f6;
 
@@ -60,30 +67,43 @@ button {
 
 .image-1 {
     flex: 1;
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
 .flex-container p {
-    color: #1f2937;
-    font-weight: 200;
+    color: #f9faf8;
+    font-weight: 400;
 }
 
-.info-block {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    flex: 1;
-    width: 150px;
-    height: auto;
+.block-1 {
+    padding: 100px 10%;
 }
+
+.block-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 10%;
+}
+
+
+.block-2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100px;
+    padding: 25px;
+    gap: 25px;
+}
+
 
 .block-3 {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px 10%;
+    padding: 100px 25%;
 }
 
 .block-3 .quote {
@@ -112,7 +132,7 @@ button {
     display: flex;
     border-radius: 10px;
     flex: auto;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 
